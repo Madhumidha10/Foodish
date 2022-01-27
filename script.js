@@ -53,7 +53,7 @@ function display_dishes()
      var card=document.getElementById(`card${i+1}`);
      var img=card.querySelector('img');
     
-     img.src="images/load.gif";
+     img.src="load.gif";
     }
     //call async function for load image based on food category
     get_food(url[id]);
